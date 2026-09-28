@@ -30,7 +30,7 @@ void LinearRegression::fit(const double X[], const double y[], int n) {
         return;
     }
 
-    slope = (n * sumXY - sumX * sumY) / denominator;
+    slope = (n * sumXY - sumX * sumY) / denominator; 
 
     intercept = (sumY - slope * sumX) / n;
 }
